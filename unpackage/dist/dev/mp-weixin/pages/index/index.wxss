@@ -1,0 +1,106 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.banner.data-v-1cf27b2a {
+  box-sizing: border-box;
+  width: 100%;
+  height: 300rpx;
+  padding: 40rpx;
+}
+.nav.data-v-1cf27b2a {
+  z-index: 99999;
+  border-top: 1px solid #eee;
+  position: fixed;
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: #333;
+  background-color: #fff;
+}
+.nav .home.data-v-1cf27b2a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .home image.data-v-1cf27b2a {
+  width: 40rpx;
+  height: 40rpx;
+}
+.goods.data-v-1cf27b2a {
+  width: 100%;
+}
+.goods .goods-left image.data-v-1cf27b2a {
+  width: 250rpx;
+  height: 250rpx;
+}
+.list.data-v-1cf27b2a {
+  width: 100%;
+  padding: 40rpx 40rpx 80rpx 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list .goodsList.data-v-1cf27b2a {
+  position: relative;
+  width: 330rpx;
+  height: 330rpx;
+  border-radius: 20rpx;
+  border: 1px solid #F0F8FF;
+  margin-bottom: 40rpx;
+}
+.list .goodsList image.data-v-1cf27b2a {
+  width: 100%;
+  height: 200rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.list .goodsList .title.data-v-1cf27b2a {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-size: 32rpx;
+  font-weight: 800;
+}
+.list .goodsList .price.data-v-1cf27b2a {
+  font-size: 28rpx;
+  color: #dd524d;
+  height: 20rpx;
+}
+.list .goodsList .buy.data-v-1cf27b2a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #F0F8FF;
+  background-color: #FFFF00;
+  border-radius: 0 0 20rpx 20rpx;
+}
